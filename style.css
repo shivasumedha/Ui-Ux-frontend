@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #d2e6ca, #4d4040);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    transition: background 0.9s ease;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    text-shadow:
+    1px 1px 0 #6c3636,   /* Red shadow */
+    1px 1px 0 #5c564d,   /* Orange shadow */
+    2px 2px 0 #363630,   /* Yellow shadow */
+    2px 2px 0 #293429,   /* Lime green shadow */
+    3px 3px 0 #405569;
+
+}
+
+input {
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+}
+#getWeather{
+    margin-top: 15px;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+}
+#weatherResult {
+    display: none;
+    margin-top: 15px; /* Add margin only when it appears */
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: black
+}
+
+
+
+.city-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+button {
+    margin-top: 10px;
+    background: #ff7eb3;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 50px; /* ✅ Set Button Height to 50px */
+    width: 100%; /* Makes button full width for better UX */
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #ff4f81;
+    transform: scale(1.01); /* Adds a slight zoom effect */
+}
+.bottom-footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+/* 86c9a1cc65be2068b63a7c94cef3d30c */

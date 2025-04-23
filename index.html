@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="bg-white/20 backdrop-blur-lg p-8 rounded-xl shadow-lg text-center w-96">
+        <h1 class="text-2xl font-semibold text-white">Weather App</h1>
+        <input type="text" id="city" placeholder="Enter city name" class="w-full p-3 mt-4 rounded-md outline-none border-2 border-white">
+        <button onclick="getWeather()" id="getWeather" class="mt-4 bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+            Get Weather
+        </button>
+        <div id="weatherResult" class="mt-4 text-white text-lg"></div>
+    </div>
+    <footer class="bottom-footer">
+        <p>&copy; 2025   All rights are reserved.</p>
+    </footer>
+    
+    
+    
+    <script src="script.js"></script>
+   <!-- <script src="https://cdn.tailwindcss.com"></script>-->
+</body>
+</html>
