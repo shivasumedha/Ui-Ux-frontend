@@ -29,3 +29,7 @@ it is userfriendly website and open source for all as a project.
 OUTPUTS:
 
 opening interface:
+
+![Image](https://github.com/user-attachments/assets/01df61b3-069f-439a-9ba7-c99313e39fc3)
+
+some other weather conditions:
